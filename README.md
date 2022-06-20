@@ -16,7 +16,7 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 
 ### Login e Dashboard
 
-- [] Página: Sign in
+- [X] Página: Sign in
 - [] Componente: Input
 - [] Criando Header
 - [] Finalizando o Header
