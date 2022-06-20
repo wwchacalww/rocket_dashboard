@@ -10,6 +10,6 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 
 - [X] Introdução ao módulo
 - [X] Interface declarativa
-- [ ] Criando Projeto em NextJS
+- [X] Criando Projeto em NextJS
 - [ ] Configurando o Chakra UI
 - [ ] Configurando fonte
