@@ -11,5 +11,14 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 - [X] Introdução ao módulo
 - [X] Interface declarativa
 - [X] Criando Projeto em NextJS
-- [ ] Configurando o Chakra UI
-- [ ] Configurando fonte
+- [X] Configurando o Chakra UI
+- [X] Configurando fonte
+
+### Login e Dashboard
+
+- [] Página: Sign in
+- [] Componente: Input
+- [] Criando Header
+- [] Finalizando o Header
+- [] Componente Sidebar
+- [] Página: Dashboard
