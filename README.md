@@ -25,5 +25,5 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 
 ### Controle de Usuários
 - [X] Página: Lista de usuários
-- [ ] Componente: Pagination
+- [X] Componente: Pagination
 - [ ] Página: Form de usuário
