@@ -21,4 +21,9 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 - [X] Criando Header
 - [X] Finalizando o Header
 - [X] Componente Sidebar
-- [ ] Página: Dashboard
+- [X] Página: Dashboard
+
+### Controle de Usuários
+- [X] Página: Lista de usuários
+- [ ] Componente: Pagination
+- [ ] Página: Form de usuário
