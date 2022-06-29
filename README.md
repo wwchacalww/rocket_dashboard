@@ -27,3 +27,14 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 - [X] Página: Lista de usuários
 - [X] Componente: Pagination
 - [ ] Página: Form de usuário
+
+### Responsividade
+- [X] Separando componentes
+- [ ] Responsividade no Chakra
+- [ ] Header responsivo
+- [ ] Sidebar responsivo
+- [ ] Dashboar responsivo
+- [ ] Listagem responsiva
+- [ ] Cadastro responsivo
+- [ ] Fluxo de navegação
+- [ ] Sinalizando link ativo
