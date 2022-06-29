@@ -42,12 +42,14 @@ export default function Userlist() {
 
           <Table colorScheme="whiteAlpha">
             <Thead>
-              <Th px="6" color="gray.300" w="8">
-                <Checkbox colorScheme="pink" />
-              </Th>
-              <Th>Usuário</Th>
-              <Th>Data de Cadastro</Th>
-              <Th width="8"></Th>
+              <Tr>
+                <Th px="6" color="gray.300" w="8">
+                  <Checkbox colorScheme="pink" />
+                </Th>
+                <Th>Usuário</Th>
+                <Th>Data de Cadastro</Th>
+                <Th width="8"></Th>
+              </Tr>
             </Thead>
             <Tbody>
               <Tr>
