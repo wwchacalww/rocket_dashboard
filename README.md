@@ -30,11 +30,11 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 
 ### Responsividade
 - [X] Separando componentes
-- [ ] Responsividade no Chakra
-- [ ] Header responsivo
-- [ ] Sidebar responsivo
-- [ ] Dashboar responsivo
-- [ ] Listagem responsiva
-- [ ] Cadastro responsivo
-- [ ] Fluxo de navegação
-- [ ] Sinalizando link ativo
+- [X] Responsividade no Chakra
+- [X] Header responsivo
+- [X] Sidebar responsivo
+- [X] Dashboar responsivo
+- [X] Listagem responsiva
+- [X] Cadastro responsivo
+- [X] Fluxo de navegação
+- [X] Sinalizando link ativo
