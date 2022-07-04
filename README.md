@@ -26,7 +26,7 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 ### Controle de Usuários
 - [X] Página: Lista de usuários
 - [X] Componente: Pagination
-- [ ] Página: Form de usuário
+- [X] Página: Form de usuário
 
 ### Responsividade
 - [X] Separando componentes
@@ -43,3 +43,10 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 - [X] Form de autenticação
 - [X] Validação de dados
 - [X] Form de criação de usuário
+
+### Conceitos do ReactQuery
+- [X] Configurando o MirageJS
+- [ ] Factories e Seeds
+- [ ] Configurando o ReactQuery
+- [ ] Listagem de usuarios
+- [ ] Configurando o DevTools
