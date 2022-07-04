@@ -46,7 +46,7 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 
 ### Conceitos do ReactQuery
 - [X] Configurando o MirageJS
-- [ ] Factories e Seeds
+- [X] Factories e Seeds
 - [ ] Configurando o ReactQuery
 - [ ] Listagem de usuarios
 - [ ] Configurando o DevTools
