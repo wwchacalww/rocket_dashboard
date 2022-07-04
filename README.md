@@ -38,3 +38,8 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 - [X] Cadastro responsivo
 - [X] Fluxo de navegação
 - [X] Sinalizando link ativo
+
+### Formulários e Validação
+- [X] Form de autenticação
+- [X] Validação de dados
+- [X] Form de criação de usuário
