@@ -28,12 +28,12 @@ export function makeSever() {
     },
 
     seeds(server) {
-      server.createList("user", 200);
+      server.createList("user", 10);
     },
 
     routes() {
       this.namespace = "api";
-      this.timing = 750;
+      this.timing = 4000;
 
       this.get("/users");
       this.post("/users");
