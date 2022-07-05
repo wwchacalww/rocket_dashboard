@@ -47,6 +47,17 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 ### Conceitos do ReactQuery
 - [X] Configurando o MirageJS
 - [X] Factories e Seeds
-- [ ] Configurando o ReactQuery
-- [ ] Listagem de usuarios
-- [ ] Configurando o DevTools
+- [X] Configurando o ReactQuery
+- [X] Listagem de usuarios
+- [X] Configurando o DevTools
+  
+### Construindo aplicação
+- [X] Sinalizando refetch dos dados
+- [X] Configurando Axios
+- [ ] Criando hook de listagem
+- [ ] Lógica de paginação
+- [ ] Componente de paginação
+- [ ] Trocando de página
+- [ ] Prefetch de dados
+- [ ] Utilizando mutations
+- [ ] SSR no React Query

@@ -21,13 +21,14 @@ import { useQuery } from "react-query";
 import { Header } from "../../components/Header";
 import Pagination from "../../components/Pagination";
 import Sidebar from "../../components/Sidebar";
+import { api } from "../../services/api";
 
 export default function Userlist() {
-  const { data, isLoading, error } = useQuery(
+  const { data, isLoading, error, isFetching } = useQuery(
     "users",
     async () => {
-      const response = await fetch("http://localhost:3000/api/users");
-      const data = await response.json();
+      const { data } = await api.get("users");
+      // const data = await response.json();
       return data.users.map((user: any) => {
         return {
           id: user.id,
@@ -59,6 +60,9 @@ export default function Userlist() {
           <Flex justify="space-between" mb="8" align="center">
             <Heading size="lg" fontWeight="normal">
               Usuários
+              {!isLoading && isFetching && (
+                <Spinner size="sm" color="gray.500" ml="4" />
+              )}
             </Heading>
             <Link href="/users/create" passHref>
               <Button
