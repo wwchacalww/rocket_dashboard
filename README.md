@@ -54,10 +54,10 @@ Todo o conteúdo desse repositório é fruto do curso Ignite Trilha React - Chap
 ### Construindo aplicação
 - [X] Sinalizando refetch dos dados
 - [X] Configurando Axios
-- [ ] Criando hook de listagem
-- [ ] Lógica de paginação
-- [ ] Componente de paginação
-- [ ] Trocando de página
+- [X] Criando hook de listagem
+- [X] Lógica de paginação
+- [X] Componente de paginação
+- [X] Trocando de página
 - [ ] Prefetch de dados
 - [ ] Utilizando mutations
 - [ ] SSR no React Query

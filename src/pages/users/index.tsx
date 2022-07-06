@@ -16,36 +16,16 @@ import {
   Spinner,
 } from "@chakra-ui/react";
 import Link from "next/link";
+import { useState } from "react";
 import { RiAddLine } from "react-icons/ri";
-import { useQuery } from "react-query";
 import { Header } from "../../components/Header";
 import Pagination from "../../components/Pagination";
 import Sidebar from "../../components/Sidebar";
-import { api } from "../../services/api";
+import { useUsers } from "../../services/hooks/useUsers";
 
 export default function Userlist() {
-  const { data, isLoading, error, isFetching } = useQuery(
-    "users",
-    async () => {
-      const { data } = await api.get("users");
-      // const data = await response.json();
-      return data.users.map((user: any) => {
-        return {
-          id: user.id,
-          name: user.name,
-          email: user.email,
-          created_at: new Date(user.createdAt).toLocaleDateString("pt-BR", {
-            day: "2-digit",
-            month: "long",
-            year: "numeric",
-          }),
-        };
-      });
-    },
-    {
-      staleTime: 1000 * 5,
-    }
-  );
+  const [page, setPage] = useState(1);
+  const { data, isLoading, error, isFetching } = useUsers(page);
 
   const isWideVersion = useBreakpointValue({
     base: false,
@@ -96,7 +76,7 @@ export default function Userlist() {
                   </Tr>
                 </Thead>
                 <Tbody>
-                  {data.map((user: any) => {
+                  {data?.users.map((user: any) => {
                     return (
                       <Tr key={user.id}>
                         <Td px={["4", "4", "6"]}>
@@ -117,7 +97,11 @@ export default function Userlist() {
                 </Tbody>
               </Table>
 
-              <Pagination />
+              <Pagination
+                totalCountOfRegisters={data.totalCount}
+                currentPage={page}
+                onChangePage={setPage}
+              />
             </>
           )}
         </Box>
