@@ -33,7 +33,7 @@ export function makeSever() {
 
     routes() {
       this.namespace = "api";
-      this.timing = 4000;
+      this.timing = 1000;
 
       this.get("/users", function (schema, request) {
         const { page = 1, per_page = 10 } = request.queryParams;
@@ -51,6 +51,7 @@ export function makeSever() {
         return new Response(200, { "x-total-count": String(total) }, { users });
       });
 
+      this.get("/users/:id");
       this.post("/users");
 
       this.namespace = "";
