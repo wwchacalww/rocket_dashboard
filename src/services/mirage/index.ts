@@ -1,7 +1,14 @@
-import { createServer, Factory, Model, Response } from "miragejs";
+import {
+  ActiveModelSerializer,
+  createServer,
+  Factory,
+  Model,
+  Response,
+} from "miragejs";
 import faker from "@withshepherd/faker";
 
 type User = {
+  id: string;
   name: string;
   email: string;
   created_at: string;
@@ -9,6 +16,9 @@ type User = {
 
 export function makeSever() {
   return createServer({
+    serializers: {
+      application: ActiveModelSerializer,
+    },
     models: {
       user: Model.extend<Partial<User>>({}),
     },
